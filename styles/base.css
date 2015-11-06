@@ -1,0 +1,15 @@
+
+body {
+	margin: 0px;
+	font-family: "Hoefler Text","Baskerville Old Face",Garamond,"Times New Roman",serif;
+	background-image: url(bgimage.jpg);
+}
+
+
+.container{
+	padding: 300px;
+	background-color: white;
+/*	margin: 0 auto;
+	overflow: auto;
+*/
+}
