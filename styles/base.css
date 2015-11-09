@@ -1,63 +1,131 @@
+
 body{
 	background-image: url(../images/bgimage.jpg);
+	margin: auto;
 }
+
 #container {
 	width: 960px;
-	margin: auto;
+	height: auto;
+/*	border: 1px solid white;
+*/	margin: auto;
+	padding: 5px;
+	text-align: center;
 	position: relative;
-	
-}
-#about {
-	width: 960px;
-	height: 500px;
-	background-color: white;
-	margin: auto;
-
-}
-header {
-	width: 100%;
-	padding: 20px;
-	position: relative;
-}
-
-nav {
-	padding: 58px;
-	text-align: center;
-	color: white;
-	display: block;
-	margin-top: 100px;
-	background-image: url(../images/hdrImg.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
-
-}
-
-ul {
-	text-align: center;
-	display: inline-block;
-}
-
-li {
-	display: inline;
-	font-family: "Arial";
-	padding-right: 50px;
-	color: white;
-	font-size: 20px;
-	font-style: bold;
-	text-align: center;
 }
 
 .logo {
-	width: 38%;
+	margin-top: 50px;
+}
+.hero {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+
+}
+.header {
 	position: absolute;
-	margin-left: 320px;
-	margin-top: 40px;
+	width: 100%;
+}
+
+#nav {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	text-align: center;
+}
+#nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; 
+	text-align: center;
+}
+
+#nav li {
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+	font-family: "Arial";
+}
+#nav li a {
+	display: inline-block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid white;
+}
+#nav li:first-child a {
+	border-left: 1px solid white;
+}
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff;
+}
+.carousel {
+	width: 960px;
+	height: 360px; }
+
+.sliderText {
+	color: black;
+	font-family: "Arial";
+	font-size: 50px;
+}
+.about {
+	width: 960px;
+	height: 500px;
+	margin: 0;
+	padding-top: 20px;
+/*	background-color: #42210B;
+*/	background-color: white;
+}
+.products {
+	width: 960px;
+	height: 400px;
+	margin: 0;
+	padding-top: 20px;
+	background-color: green;
+	float: left;
+}
+.recipes {
+	width: 960px;
+	height: 200px;
+	margin: 0;
+	padding-top: 20px;
+	background-color: white;
+	float: left;
+}
+.contact {
+	width: 960px;
+	height: 200px;
+	margin: 0;
+	padding-top: 20px;
+	background-color: orange;
+	float: left;
 }
 
 
 
 
-li a:link    {color:white; /*background-color:transparent; */text-decoration:none}
-/*li a:visited {color:blue; background-color:transparent; text-decoration:none}
-*/li a:hover   {color:green; background-color:transparent; text-decoration:none}
-li a:active  {color:white; background-color:transparent; text-decoration:none}}
+
+
+
+
+
+/*footer below//*/
+
+#footer {
+    background-color: black;
+    font-size: 18px;
+    height: 200px;
+    width: 960px;
+    color: white;
+    font-family: "Impact";
+	position: fixed 0;
+    border-top: 2px solid white;
+    float: left;
+    padding-top: 30px;
+}
+
