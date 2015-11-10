@@ -140,7 +140,7 @@ body{
 }
 
 
-.products {
+#products {
 	width: 960px;
 	height: 400px;
 	margin: 0;
@@ -149,7 +149,7 @@ body{
 	float: left;
 }
 
-.recipes {
+#recipes {
 	width: 960px;
 	height: 200px;
 	margin: 0;
@@ -157,7 +157,7 @@ body{
 	background-color: white;
 	float: left;
 }
-.contact {
+#contact {
 	width: 960px;
 	height: 200px;
 	margin: 0;
@@ -191,8 +191,6 @@ body{
 	position: relative;
 }
 
-
-
 /*footer below//*/
 
 #footer {
@@ -208,3 +206,12 @@ body{
     padding-top: 30px;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: bold;
+	color: gold;
+}
