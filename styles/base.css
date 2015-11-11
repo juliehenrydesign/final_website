@@ -39,8 +39,6 @@ body{
 }
 
 
-
-
 #nav {
 	width: 100%;
 	margin: 0 auto;
@@ -194,7 +192,7 @@ body{
 /*footer below//*/
 
 #footer {
-    background-color: black;
+/*    background-color: black;
     font-size: 18px;
     height: 200px;
     width: 960px;
@@ -202,9 +200,9 @@ body{
     font-family: "Impact";
 	position: fixed 0;
     border-top: 2px solid white;
-    float: left;
-    padding-top: 30px;
-}
+*/    float: left;
+/*    padding-top: 30px;
+*/}
 
 a {
 	text-decoration: none;
@@ -215,7 +213,97 @@ a:hover {
 	text-decoration: bold;
 	color: gold;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> e6d5d2726b6d27d98e986602c8524430a4241061
+/*Footer Columns*/
+.address {
+	width: 860px;
+	height: 200px;
+	background-color: lightblue;
+	color: white;
+	padding: 50px;
+	font-size: 20px;
+    border-top: 5px solid black;
+    font-family: "Arial"
+}	
+
+
+.socialIcon {
+	width: 20px;
+	display: inline-block;
+	padding: 5px 0px;
+	float: left;
+	overflow: auto;
+	margin: 5px;
+}
+
+.left {
+	width: 23.8%;
+	height: 300px;
+	float: left;
+}
+
+.middle {
+	width: 23.8%;
+	height: 300px;
+	float: left;
+	padding: 50px 55px;
+	margin: 30px 25px 5px 5px;
+	color: black;
+	margin: 0 auto;
+}
+
+.right {
+	width: 23.8%;
+	height: 300px;
+	padding: 10px 55px;
+	float: left;
+	color: black;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.columntext {
+	font-size: 13px;
+	font-family: "Arial";
+	padding: 15px 0;
+	margin: 0 auto;
+	line-height: 16px;
+	text-align: left;
+}
+
+
+#form {
+/*	border-bottom: 1px solid #efefef;
+*/	margin: 10px;
+	padding-bottom: 10px;
+	width: 250px;
+}
+
+.title {
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.submit {
+	text-align: right;
+	float: left;
+	margin-left: 130px;
+}
+/*#footer img {
+
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+*/
+/*#footer img:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+
+}
+*/
