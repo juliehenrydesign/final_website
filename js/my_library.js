@@ -20,7 +20,7 @@ $(document).ready(function() {
 		      	timeout = null;
 
 		      	// when the user has scrolled 500px
-		      	if ($(window).scrollTop() <= 800) {
+		      	if ($(window).scrollTop() <= 820) {
 		        	// set up alternate navigation view
 		        	$("#sidebar").hide();
 		       	} else {
