@@ -5,48 +5,28 @@
 
 
 $(document).ready(function() {
-$(".fa-diamond").click(function() {
-  if ($("ul").hasClass("open")) {
-    $("ul").slideUp();
-    $("ul").removeClass("open");
-  } else {
-    $("ul").slideDown();
-    $("ul").addClass("open");
-  }
-});
 
-var timeout = null;
+ // if ($("#showSidebar").scroll() >== 679) {
+ //  $("sidebar").show();
+ // }
 
-$(window).scroll(function() {
-  if (!timeout) {
-    // tl;dr setting timeout for browser performance
-    timeout = setTimeout(function() {
-      clearTimeout(timeout);
-      timeout = null;
+ 	var timeout;
 
-      // when the user has scrolled 500px
-      if ($(window).scrollTop() >= 500) {
-        // set up alternate navigation view
-        $("ul").hide();
+	$(window).scroll(function() {
+	  	if (!timeout) {
+	    	// tl;dr setting timeout for browser performance
+	    	timeout = setTimeout(function() {
+		      	clearTimeout(timeout);
+		      	timeout = null;
 
-        $("ul").css({
-          width: "100%",
-          borderTop: "1px solid black"
-        });
-
-        $("ul li").css({
-          width: "100%",
-          borderBottom: "1px solid black"
-        });
-
-        $(".fa-diamond").show();
-      } else {
-        // remove alternate navigation view
-        $("ul").attr("style", "");
-        $("ul li").attr("style", "");
-        $(".fa-diamond").attr("style", "");
-      }
-    }, 250);
-  }
-});
+		      	// when the user has scrolled 500px
+		      	if ($(window).scrollTop() <= 800) {
+		        	// set up alternate navigation view
+		        	$("#sidebar").hide();
+		       	} else {
+		       		$("#sidebar").show();
+		     	}
+	   		}, 50);
+	   	}
+	});
 });
