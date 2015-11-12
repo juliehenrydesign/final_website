@@ -463,4 +463,16 @@ h1 {
 h5 {
 	font-family: "Arial black";
 }
-*/
+
+@media all and (min-width: 1440px) {
+	#sidebar {
+		left: 250px;
+	}
+	}
+
+@media all and (max-width: 480px) {
+	#sidebar {
+		left: 10px;
+	}
+}
+
