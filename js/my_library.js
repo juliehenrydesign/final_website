@@ -19,7 +19,7 @@ $(document).ready(function() {
 		      	clearTimeout(timeout);
 		      	timeout = null;
 
-		      	// when the user has scrolled 500px
+		      	// when the user has scrolled 820px
 		      	if ($(window).scrollTop() <= 820) {
 		        	// set up alternate navigation view
 		        	$("#sidebar").hide();
@@ -29,4 +29,13 @@ $(document).ready(function() {
 	   		}, 50);
 	   	}
 	});
+	
+	$(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein');}, 
+      1500);
+});
 });

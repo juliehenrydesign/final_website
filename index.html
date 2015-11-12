@@ -3,17 +3,18 @@
 <head>
 	<title>Bakery</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styles/base.css">
 	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/carousel.css">
+	<link rel="stylesheet" type="text/css" href="styles/base.css">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="js/jquery-2.1.4.js"></script>
 	<script src="js/my_library.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
- -->
+ <!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+// // 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+//  -->
 
 
 </head>
@@ -29,10 +30,10 @@
 		<div id="nav">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#products">Our Products</a></li>
-				<li><a href="#recipes">Recipes</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="index.html#about">About</a></li>
+				<li><a href="index.html#products">Our Products</a></li>
+				<li><a href="index.html#recipes">Recipes</a></li>
+				<li><a href="index.html#contact">Contact</a></li>
 			</ul>	
 		</div>
 		<div id="showSidebar">
@@ -45,7 +46,30 @@
 		</div>
 
 		<div class="carousel">
-			<img src="images/babycake.jpg" width="100%">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				  </ol>
+				 
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      	<img src="images/cookies.jpg">
+				    </div>
+				    <div class="item">
+				      	<img src="images/cupcakes.jpg">
+				    </div>
+				    <div class="item">
+				    	<img src="images/cakie.jpg">
+				    </div>
+				    <div class="item">
+				      	<img src="images/cookies2.jpg">
+				    </div>
+				  </div>
+				 
+				</div> 
 		</div>
 		
 		
@@ -66,9 +90,41 @@
 		</div>
 		
 		<div id="products">
+			<div class="left">
+			</div>
+				<h2 class="goods">Our Goods:</h2>
+			<div class="cup">
+				<img src="images/cupcakes2.jpg">
+				<h3>Cupcakes</h3>
+				<p>We offer many types of cupcakes!</p>
+			</div>
+			<div class="cake">
+				<img src="images/cake-str.jpg">
+				<h3>Cakes</h3>
+				<p>We offer many types of cakes!</p>
+			</div>
+			<div class="cookie">
+				<img src="images/cookies3.jpg">
+				<h3>Cookies</h3>
+				<p>We offer many types of cookies!</p>
+			</div>
 		</div>
+
 		<div id="recipes">
+			<h2 class="recipes">Check out our recipes!</h2>
+			<div class="left">
+			</div> 	   
+		    <div class="imgrec1">
+				<a href="recipes.html"><img src="images/choc_cup.jpg"></a>
+				<h3>Cupcakes</h3>
+			</div>
+			<div class="imgrec2">
+				<a href="recipes.html"><img src="images/swirl.jpg"></a>
+				<h3>Cakes</h3>
+			</div>
 		</div>
+	
+
 		<div id="contact">
 			<div class="left">
 			</div>

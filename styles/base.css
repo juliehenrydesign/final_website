@@ -82,7 +82,8 @@ body{
 
 .carousel {
 	width: 960px;
-	height: 560px; 
+	height: 505px;
+	margin-top: 55px; 
 
 }
 
@@ -100,7 +101,7 @@ body{
 }
 
 .ahead {
-	font-family: "Arial";
+	font-family: "Arial black";
 	font-size: 35px;
 	margin: 0px 20px 0 200px;
 	text-align: left;
@@ -172,15 +173,16 @@ body{
 	width: 960px;
 	height: 400px;
 	margin: 0;
-	background-color: green;
+	background-color: darkgreen;
 }
 
 #recipes {
 	width: 960px;
 	height: 400px;
 	margin: 0;
-	background-color: white;
+	background-color: orange;
 }
+
 #contact {
 	width: 960px;
 	height: 340px;
@@ -202,7 +204,7 @@ body{
 	line-height: 70px;
 	color: white;
 	top: 10px;
-	left: 120px;
+	left: 170px;
 }
 
 
@@ -256,9 +258,78 @@ a:hover {
 
 
 }
+
+.cup, .cake, .cookie {
+	float:left;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-right: 30px;
+}
+
+.goods {
+	font-family: "Arial black";
+	font-size: 35px;
+	margin: 0px 20px 0 200px;
+	text-align: left;
+	padding-top: 50px;
+	font-weight: bold;
+
+}
+
+h3 {
+	font-family: Arial black;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 15px;
+	font-family: Arial;
+}
+
+/*#products img {
+
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}*/
+
+#products img:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+
+}
+
+.recipes {
+	font-family: "Arial black";
+	font-size: 35px;
+	margin: 0px 20px 0 200px;
+	text-align: left;
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+#recipes img:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+
+}
+
+.imgrec1, .imgrec2 {
+	float:left;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-right: 65px;
+}
+
 .foothead {
 	font-size: 25px;
-	font-family: "Arial";
+	font-family: "Arial black";
 	font-weight: bold;
 	padding-top: 20px;
 	text-align: left;
@@ -313,4 +384,83 @@ footer {
 	margin-right: 30px;
 }
 
+#recipes-page {
+	width: 960px;
+	height: 950px;
+	margin: 0;
+	background-color: #ffd480;
+}
+
+.middle2 {
+	width: 320px;
+	height: 220px;
+	padding: 10px 25px 10px 25px;
+	color: black;
+	margin-left: 120px;
+/*	margin: 0 auto;
+*/	float: left;
+
+}
+
+.right2 {
+	width: 320px;
+	height: 220px;
+	padding: 10px;
+	color: black;
+	margin: 0 auto;
+	text-align: left;
+	float: left;
+
+}
+
+.fadein { 
+	position: relative;
+	width:500px; 
+	height:332px;
+	margin-top: 55px;
+
+}
+
+.fadein img { 
+	position:absolute; 
+	left: 45%; 
+	top:0;
+	margin-top: 15px; 
+}
+
+
+.fadein {
+	opacity:1;
+	transition: opacity 1s; 
+}
+
+.fadein.fadeOut {
+	opacity:0;
+}
+
+.words {
+	margin-top: 50px;
+	margin-left: 20px;
+	text-align: left;
+	font-size: 25px;
+	font-family: "Arial black";
+}
+.right-col, .left-col {
+	float: left;
+	width: 45%;
+	height: 510px;
+	padding: 9px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+h1 {
+	text-align: left;
+	font-family: "Arial black";
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+h5 {
+	font-family: "Arial black";
+}
 */
