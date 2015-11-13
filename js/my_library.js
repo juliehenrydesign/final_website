@@ -38,7 +38,17 @@ $(document).ready(function() {
          .end().appendTo('.fadein');}, 
       1500);
 });
-	 $(".fa-diamond").click(function() {
+		$("ul li a").mouseenter(function() {
+	          $(this).css({
+	            textDecoration: "underline"
+	          });
+	    });
+
+        $("ul li a").mouseleave(function() {
+          $(this).attr("style", "");
+        });
+
+	 $(".fa-cloud").click(function() {
           if ($("ul").hasClass("open")) {
             $("ul").slideUp();
             $("ul").removeClass("open");
