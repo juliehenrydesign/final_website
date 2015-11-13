@@ -38,4 +38,13 @@ $(document).ready(function() {
          .end().appendTo('.fadein');}, 
       1500);
 });
+	 $(".fa-diamond").click(function() {
+          if ($("ul").hasClass("open")) {
+            $("ul").slideUp();
+            $("ul").removeClass("open");
+          } else {
+            $("ul").slideDown();
+            $("ul").addClass("open");
+          }
+        });
 });

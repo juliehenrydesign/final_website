@@ -444,6 +444,13 @@ h5 {
 	font-family: "Arial black";
 }
 
+.fa-cloud {
+        display: none;
+        float: right;
+        margin: 15px;
+        cursor: pointer;
+}
+
 @media all and (min-width: 1440px) {
 	#sidebar {
 		left: 250px;
@@ -453,6 +460,14 @@ h5 {
 @media all and (max-width: 480px) {
 	#sidebar {
 		overflow: hidden;
+	}
+	#showSidebar {
+		display: none;
+	}
+
+	#nav {
+		width: 390px;
+		float: left;
 	}
 	.carousel {
 		width: 390px;
@@ -471,16 +486,174 @@ h5 {
 
 	#about {
 		width: 390px;
-		height: 1700px;
+		height: 700px;
+
+	}
+
+	.abtleft {
+		width: 10px;
 	}
 
 	.ptext {
 		width: 390px;
-		margin: 0px 0px 0px -10px;
+		margin: 0px 0px 0px 0px;
 		padding-right: 20px;
 
 	}
+
+	.ahead {
+		font-size: 20px;
+		margin: 0px 0px 0px 0px;
+	}
+	.socialIcon {
+		width: 40px;
+		margin-top: 20px;
+	}
+    .fa-cloud {
+      display: block;
+    }
+    ul {
+      display: none;
+      width: 100%;
+      border-top: 1px solid black;
 }
+
+	ul li {
+	  width: 100%;
+	  border-bottom: 1px solid black;
+	}
+
+	.mary {
+		margin: 0px 10px 0px 0px;
+	}
+
+	.marypic {
+		height: 150px;
+		width: 150px;
+	}
+
+	.mtext {
+		position: relative;
+		margin-left: 15px;
+	}
+
+	.john {
+		margin: 0px 20px 0px 90px ;
+
+	}
+
+	.jtext {
+		position: relative;
+		margin-left: 15px;
+	}
+
+	.johnpic {
+		height: 150px;
+		width: 150px;
+	}
+
+	#products {
+		width: 390px;
+		height: 400px;
+	}
+	.left {
+		float: left;
+	}
+	.goods {
+		margin: 0 auto;
+		font-size: 20px;
+		padding-top: 15px;
+
+	}
+
+	#products .left {
+		width: 0px;
+		height: 0px;
+	}
+
+	#products img {
+		width: 100px;
+		height: 100px;
+	}
+
+	#products h3 {
+		font-size: 15px;
+	}
+
+	#products p {
+		font-size: 10px;
+	}
+
+	.cup {
+		padding-left: 25px;
+	}
+
+	.cookie {
+		padding-left: 110px;
+	}
+
+	#recipes {
+		width: 390px;
+	}
+
+	#recipes .left {
+		width: 0px;
+		height: 0px;
+	}
+
+	.recipes {
+		margin: 0 auto;
+		font-size: 20px;
+		padding-top: 15px;
+	}
+
+	#recipes img {
+		width: 200px;
+		height: 100px;
+		padding-left: 80px;
+	}
+
+	#recipes h3 {
+		font-size: 15px;
+	}
+
+	#contact {
+		width: 390px;
+		height: 300px;
+		
+	}
+	#contact .left {
+		float: left;
+		width: 0px;
+		height: 0px;
+		
+	}
+	.middle {
+		width: 40%;
+		padding: 10px;
+		padding-top: 0px;
+		margin: 0px 10px 0px 10px;
+		float: left;
+	}
+
+	.right {
+		float: left;
+		width: 40%;
+		padding-top: 0px;
+	}
+	.foothead {
+		font-size: 15px;
+	}
+	.columntext {
+		font-size: 10px;
+		padding: 0px 0px 0px 0px;
+	}
+
+	#name, #email {
+		width: 100px;
+	}
+}
+
 
 
 
